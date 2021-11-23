@@ -27,6 +27,13 @@ function aufDenBaum() {console.log("oben auf den Baum");
 
 }
 console.log("Die Katze ruht sich aus");
+function aufDenBaum(){
+  if (isMouseAlive) {
+      console.log( "Die Maus versteckt sich vor der Katze");
+  } else {
+      console.log("Die Katze ruht sich aus")
+  } 
+}
 
 miau();
 fangeineMaus();
