@@ -14,14 +14,20 @@ function myFunction() {
 */
 
 // function schreiben
-let bellen = true
+let isMouseAlive = true
 
 function miau() {console.log("miau, miau, miau");
 }
 
-function sitz() {console.log("...Hund sitzt");
+function fangeineMaus() {console.log("...Quitsch");
 }
 
-function holBall() {console.log("hole den Ball");
+function aufDenBaum() {console.log("oben auf den Baum");
+
 }
-bellen();
+miau();
+fangeineMaus();
+aufDenBaum();
+
+
+
