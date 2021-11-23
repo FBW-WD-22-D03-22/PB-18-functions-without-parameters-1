@@ -10,7 +10,7 @@ function miau() {
 // Aufgabenstellung - Teil 2
 
 function catchMaus(){
-    
+    isMouseAlive = false;
 console.log ("Katze fängt die Maus")
 }
 
