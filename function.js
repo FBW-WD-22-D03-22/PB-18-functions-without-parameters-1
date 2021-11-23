@@ -1,20 +1,28 @@
-/*
-Katze
-*/
-let miauen = true;
-console.log ("Miau, miau, miau");
-
-function miauen () {
-    console.log ("Miau, miau, miau");
+/*the cat and mouse*/
+let isJerryAlive = true;
+function Tom() {
+    console.log("miau,miau,miau...");
 }
-
-function bark() {
-    if(miauen){
-    } else {
-    console.log("Miau, miau, miau");
+function catchTheMous() {
+    isJerryAlive = false;
+    console.log("catch the mouse");
+}
+function climbOfTree() {
+    if (isJerryAlive) { console.log("Tom hides from Jerry");
+        
+    } else { console.log("Tom is resting");
+        
     }
-    /*
-     die Katze, mit der sie eine Maus fangen kann. 
-     */
-    let isMouseAlive = true;
-    
+}
+//diese function war zusätzlich
+function JerryAlive() {
+    if (isJerryAlive) { console.log("Jerry is Alive");
+        
+    } else { console.log("Jery is dead");
+        
+    }
+}
+Tom();
+catchTheMous();
+climbOfTree();
+JerryAlive();
