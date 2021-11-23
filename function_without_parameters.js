@@ -10,6 +10,7 @@ function catchMouse() {
 }
 
 function treeClimbing() {
+    // let isMouseAlive = false;
     if (isMouseAlive == true || isMouseAlive == false) {
         console.log("Aufgabe 3a ) Die Katze versteckt sich vor der Maus");
     } else {
