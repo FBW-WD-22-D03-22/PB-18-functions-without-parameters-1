@@ -1,11 +1,12 @@
 
 let isMouseAlive = true;
 
-function Miau() {
+function miau() {
     console.log("Miau, miau, miau!");
 }
-function fngeineMaus(){
-    console.log("oben auf den Baum");
+function maus(){
+    isMouseAlive = false
+    console.log("Is Mouse alive?",isMouseAlive);
 }
 function einenBaumklettern(){
     if (isMouseAlive) {
@@ -15,7 +16,7 @@ function einenBaumklettern(){
     }
 }
 
-Miau();
-fngeineMaus();
+miau();
+maus();
 einenBaumklettern();
-isMouseAlive = true;
+
